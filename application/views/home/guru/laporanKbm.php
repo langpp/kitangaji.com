@@ -17,62 +17,55 @@
 										<thead>
 											<tr>
 												<th>NO</th>
-												<th>Nama Kegiatan</th>
-												<th>Tanggal Kegiatan</th>
-												<th>Total Murid</th>
-												<th>Total Sumbangan</th>
+												<th>Nama Murid</th>
+												<th>Alamat</th>
+												<th>Kota</th>
+												<th>Status</th>
 												<th>Detail</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td>1</td>
-												<td>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</td>
-												<td>20 Juli 2019</td>
-												<td>30</td>
-												<td>Rp 100.000</td>
+												<td>Umar</td>
+												<td>bendungan Depok</td>
+												<td>Depok</td>
+												<td><span class="badge badge-info">Aktif</span></td>
 												<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
 											</tr>
 											<tr>
 												<td>2</td>
-												<td>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</td>
-												<td>20 Juli 2019</td>
-												<td>30</td>
-												<td>Rp 100.000</td>
+												<td>Umar</td>
+												<td>bendungan Depok</td>
+												<td>Depok</td>
+												<td><span class="badge badge-info">Aktif</span></td>
 												<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
 											</tr>
 											<tr>
 												<td>3</td>
-												<td>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</td>
-												<td>20 Juli 2019</td>
-												<td>30</td>
-												<td>Rp 100.000</td>
+												<td>Umar</td>
+												<td>bendungan Depok</td>
+												<td>Depok</td>
+												<td><span class="badge badge-info">Aktif</span></td>
 												<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
 											</tr>
 											<tr>
 												<td>4</td>
-												<td>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</td>
-												<td>20 Juli 2019</td>
-												<td>30</td>
-												<td>Rp 100.000</td>
+												<td>Umar</td>
+												<td>bendungan Depok</td>
+												<td>Depok</td>
+												<td><span class="badge badge-info">Aktif</span></td>
 												<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
 											</tr>
 											<tr>
 												<td>5</td>
-												<td>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</td>
-												<td>20 Juli 2019</td>
-												<td>30</td>
-												<td>Rp 100.000</td>
+												<td>Umar</td>
+												<td>bendungan Depok</td>
+												<td>Depok</td>
+												<td><span class="badge badge-info">Aktif</span></td>
 												<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
 											</tr>
-											<tr>
-												<td>6</td>
-												<td>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</td>
-												<td>20 Juli 2019</td>
-												<td>30</td>
-												<td>Rp 100.000</td>
-												<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
-											</tr>
+
 										</tbody>
 									</table>
 								</div>
@@ -95,13 +88,21 @@
 					</button>
 				</div>
 				<div class="modal-body">
-					<img src="<?php echo base_url(); ?>assets/home/images/image_1.jpg" class="img-fluid">
-					<p class="mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					 <div class="form-group">
+                  <label class="text-left">Tanggal</label>
+                  <input type="date" class="form-control mb-2" required>
+                </div>
+					 <div class="form-group">
+                  <label class="text-left">Kunjugan</label>
+                  <input type="text" class="form-control mb-2" placeholder="Kunjungan Kemana" required>
+                </div>
+                <div class="form-group">
+                  <label class="text-left">Kunjugan</label>
+                  <textarea class="form-control"></textarea>
+                </div>
+				</div>
+				<div class="modal-footer float-right">
+					<button class="btn btn-success">Kirim</button>
 				</div>
 			</div>
 		</div>

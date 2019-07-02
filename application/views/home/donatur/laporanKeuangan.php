@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<h1 class="section-header">
-					<div>Laporan KBM</div>
+					<div>Laporan Keuangan</div>
 				</h1>
 				<div class="card">
 					<div class="card-header">

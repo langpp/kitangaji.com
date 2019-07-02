@@ -1,108 +1,169 @@
-<div class="main-content">
-	<section class="section">
-		<div class="row">
-			<div class="col-lg-12">
-				<h1 class="section-header">
-					<div>Laporan KBM</div>
-				</h1>
-				<div class="card">
-					<div class="card-header">
-						<h4>Data Pendapatan KBM Anda</h4>
-					</div>
-					<div class="card-body">
-						<div class="row d-md-flex align-items-center justify-content-end">
-							<div class="col-lg-12">
-								<div class="table-responsive">
-									<table class="table table-striped table-hover" id="dataTable">
-										<thead>
-											<tr>
-												<th>NO</th>
-												<th>Nama Kegiatan</th>
-												<th>Tanggal Kegiatan</th>
-												<th>Total Murid</th>
-												<th>Total Sumbangan</th>
-												<th>Detail</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>1</td>
-												<td>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</td>
-												<td>20 Juli 2019</td>
-												<td>30</td>
-												<td>Rp 100.000</td>
-												<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
-											</tr>
-											<tr>
-												<td>2</td>
-												<td>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</td>
-												<td>20 Juli 2019</td>
-												<td>30</td>
-												<td>Rp 100.000</td>
-												<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
-											</tr>
-											<tr>
-												<td>3</td>
-												<td>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</td>
-												<td>20 Juli 2019</td>
-												<td>30</td>
-												<td>Rp 100.000</td>
-												<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
-											</tr>
-											<tr>
-												<td>4</td>
-												<td>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</td>
-												<td>20 Juli 2019</td>
-												<td>30</td>
-												<td>Rp 100.000</td>
-												<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
-											</tr>
-											<tr>
-												<td>5</td>
-												<td>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</td>
-												<td>20 Juli 2019</td>
-												<td>30</td>
-												<td>Rp 100.000</td>
-												<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
-											</tr>
-											<tr>
-												<td>6</td>
-												<td>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</td>
-												<td>20 Juli 2019</td>
-												<td>30</td>
-												<td>Rp 100.000</td>
-												<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	</div>
-
-	<!-- Modal -->
-	<div class="modal fade" id="modalKBM" tabindex="-1" role="dialog" aria-labelledby="modalKBMLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="modalKBMLabel">Detail</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<img src="<?php echo base_url(); ?>assets/home/images/image_1.jpg" class="img-fluid">
-					<p class="mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+   <div class="main-content">
+   	<section class="section">
+   		<div class="row">
+   			<div class="col-lg-3 col-md-6 col-sm-12">
+   				<div class="card card-sm card-primary">
+   					<div class="card-icon text-primary">
+   						<i class="fas fa-dollar-sign"></i>
+   					</div>
+   					<div class="card-wrap">
+   						<div class="card-body">
+   							48 
+   						</div>
+   						<div class="card-header">
+   							<h4>Total KBM</h4>
+   						</div>
+   					</div>
+   				</div>
+   			</div>
+   			<div class="col-lg-3 col-md-6 col-sm-12">
+   				<div class="card card-sm card-info">
+   					<div class="card-icon text-info">
+   						<i class="fas fa-paste"></i>
+   					</div>
+   					<div class="card-wrap">
+   						<div class="card-body">
+   							Rp 6.4 JT
+   						</div>
+   						<div class="card-header">
+   							<h4>Dana Tersalurkan</h4>
+   						</div>
+   					</div>
+   				</div>
+   			</div>
+   			<div class="col-lg-3 col-md-6 col-sm-12">
+   				<div class="card card-sm card-warning">
+   					<div class="card-icon text-warning">
+   						<i class="fas fa-motorcycle"></i>
+   					</div>
+   					<div class="card-wrap">
+   						<div class="card-body">
+   							41
+   						</div>
+   						<div class="card-header">
+   							<h4> KBM Success</h4>
+   						</div>
+   					</div>
+   				</div>
+   			</div>
+   			<div class="col-lg-3 col-md-6 col-sm-12">
+   				<div class="card card-sm card-danger">
+   					<div class="card-icon text-danger">
+   						<i class="fas fa-battery-three-quarters"></i>
+   					</div>
+   					<div class="card-wrap">
+   						<div class="card-body">
+   							3
+   						</div>
+   						<div class="card-header">
+   							<h4>Total Donatur</h4>
+   						</div>
+   					</div>
+   				</div>
+   			</div>                
+   		</div>
+   		<div class="card">
+   			<div class="card-header">
+   				<h4>Data KBM Selesai Terbaru</h4>
+   			</div>
+   			<div class="card-body">
+   				<div class="table-responsive">
+   					<table class="table table-striped table-hover" id="dataTable">
+   						<thead>
+   							<tr>
+   								<th class="text-center">No</th>
+   								<th>Task Name</th>
+   								<th>Progress</th>
+   								<th>Guru Pengajar</th>
+   								<th>Due Date</th>
+   								<th>Dana Terkumpul</th>
+   								<th>Status</th>
+   								<th>Action</th>
+   							</tr>
+   						</thead>
+   						<tbody>
+   							<tr>
+   								<td width="40">
+   									1
+   								</td>
+   								<td>Create a mobile app</td>
+   								<td class="align-middle">
+   									<div class="progress" style="height: 4px;" data-toggle="tooltip" title="" data-original-title="100%">
+   										<div class="progress-bar bg-success" style="width: 100%;"></div>
+   									</div>
+   								</td>
+   								<td>
+   									<img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-4.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Wildan Ahdian">
+   								</td>
+   								<td>2018-01-20</td>
+   								<td>Rp 20.000.000 (3 Donatur)</td>
+   								<td><div class="badge badge-success">Completed</div></td>
+   								<td><a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-secondary">Detail</a></td>
+   							</tr>
+   							<tr>
+   								<td>
+   									2
+   								</td>
+   								<td>Redesign homepage</td>
+   								<td class="align-middle">
+   									<div class="progress" style="height: 4px;" data-toggle="tooltip" title="" data-original-title="0%">
+   										<div class="progress-bar bg-danger" style="width: 10%;"></div>
+   									</div>
+   								</td>
+   								<td>
+   									<img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-4.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Nur Alpiana">
+   									<img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-1.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Hariono Yusup">
+   									<img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-2.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Bagus Dwi Cahya">
+   								</td>
+   								<td>2018-04-10</td>
+   								<td>Rp 20.000.000 (3 Donatur)</td>
+   								<td><div class="badge badge-danger">Fail</div></td>
+   								<td><a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-secondary">Detail</a></td>
+   							</tr>
+   							<tr>
+   								<td>
+   									3
+   								</td>
+   								<td>Backup database</td>
+   								<td class="align-middle">
+   									<div class="progress" style="height: 4px;" data-toggle="tooltip" title="" data-original-title="70%">
+   										<div class="progress-bar bg-danger" style="width: 70%;"></div>
+   									</div>
+   								</td>
+   								<td>
+   									<img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-5.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Rizal Fakhri">
+   									<img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-2.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Hasan Basri">
+   								</td>
+   								<td>2018-01-29</td>
+   								<td>Rp 20.000.000 (3 Donatur)</td>
+   								<td><div class="badge badge-danger">Fail</div></td>
+   								<td><a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-secondary">Detail</a></td>
+   							</tr>
+   							<tr>
+   								<td>
+   									4
+   								</td>
+   								<td>Input data</td>
+   								<td class="align-middle">
+   									<div class="progress" style="height: 4px;" data-toggle="tooltip" title="" data-original-title="100%">
+   										<div class="progress-bar bg-success" style="width: 80%;"></div>
+   									</div>
+   								</td>
+   								<td>
+   									<img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-2.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Rizal Fakhri">
+   									<img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-5.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Isnap Kiswandi">
+   									<img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-4.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Yudi Nawawi">
+   									<img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-1.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Khaerul Anwar">
+   								</td>
+   								<td>2018-01-16</td>
+   								<td>Rp 20.000.000 (3 Donatur)</td>
+   								<td><div class="badge badge-success">Completed</div></td>
+   								<td><a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-secondary">Detail</a></td>
+   							</tr>
+   						</tbody>
+   					</table>
+   				</div>
+   			</div>
+   		</div>
+   	</section>
+   </div>

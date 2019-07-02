@@ -151,54 +151,40 @@
 									<thead>
 										<tr>
 											<th>NO</th>
-											<th>Bulan</th>
-											<th>Total Murid</th>
-											<th>Total Pendapatan</th>
+											<th>Tanggal Invoice</th>
+											<th>Tanggal Pembayaran</th>
 											<th>Status</th>
+											<th>Detail</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
 											<td>1</td>
 											<td>Januari 2019</td>
-											<td>300</td>
-											<td>Rp 30.000.000</td>
+											<td>30 Januari 2019</td>
 											<td><span class="badge badge-success">Success</span></td>
+											<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
 										</tr>
 										<tr>
 											<td>2</td>
 											<td>Januari 2019</td>
-											<td>300</td>
-											<td>Rp 30.000.000</td>
+											<td>30 Januari 2019</td>
 											<td><span class="badge badge-success">Success</span></td>
+											<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
 										</tr>
 										<tr>
 											<td>3</td>
 											<td>Januari 2019</td>
-											<td>300</td>
-											<td>Rp 30.000.000</td>
+											<td>30 Januari 2019</td>
 											<td><span class="badge badge-success">Success</span></td>
+											<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
 										</tr>
 										<tr>
 											<td>4</td>
 											<td>Januari 2019</td>
-											<td>300</td>
-											<td>Rp 30.000.000</td>
+											<td>30 Januari 2019</td>
 											<td><span class="badge badge-success">Success</span></td>
-										</tr>
-										<tr>
-											<td>5</td>
-											<td>Januari 2019</td>
-											<td>300</td>
-											<td>Rp 30.000.000</td>
-											<td><span class="badge badge-success">Success</span></td>
-										</tr>
-										<tr>
-											<td>6</td>
-											<td>Januari 2019</td>
-											<td>300</td>
-											<td>Rp 30.000.000</td>
-											<td><span class="badge badge-success">Success</span></td>
+											<td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalKBM">Lihat</button></td>
 										</tr>
 									</tbody>
 								</table>
@@ -208,3 +194,152 @@
 				</div>
 			</section>
 		</div>
+		<!-- Modal -->
+	<div class="modal fade" id="modalKBM" tabindex="-1" role="dialog" aria-labelledby="modalKBMLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="modalKBMLabel">Detail Invoice</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="card">
+					<div class="card-header">
+						<h4>Detail Payment Kbm Terbaru</h4>
+					</div>
+					<div class="card-body">
+						<div class="card ftco-animate">
+							<div class="card-header">
+								Invoice
+								<strong>01/01/2019</strong> 
+								<span class="float-right"> <strong>Status:</strong> <span class="badge badge-warning">Pending</span></span>
+
+							</div>
+							<div class="card-body">
+								<div class="row mb-4">
+									<div class="col-sm-6">
+										<h6 class="mb-3">From:</h6>
+										<div>
+											<strong>Webz Poland</strong>
+										</div>
+										<div>Madalinskiego 8</div>
+										<div>71-101 Szczecin, Poland</div>
+										<div>Email: info@webz.com.pl</div>
+										<div>Phone: +48 444 666 3333</div>
+									</div>
+
+									<div class="col-sm-6">
+										<h6 class="mb-3">To:</h6>
+										<div>
+											<strong>Bob Mart</strong>
+										</div>
+										<div>Attn: Daniel Marek</div>
+										<div>43-190 Mikolow, Poland</div>
+										<div>Email: marek@daniel.com</div>
+										<div>Phone: +48 123 456 789</div>
+									</div>
+
+
+
+								</div>
+
+								<div class="table-responsive">
+									<table class="table table-striped">
+										<thead>
+											<tr>
+												<th class="center">NO</th>
+												<th>KBM</th>
+												<th>Keterangan</th>
+
+												<th class="right">Donatur</th>
+												<th class="center">Murid Bergabung</th>
+												<th class="right">Total</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="center">1</td>
+												<td class="left strong">Origin License</td>
+												<td class="left">Extended License</td>
+
+												<td class="right">$999,00</td>
+												<td class="center">1</td>
+												<td class="right">$999,00</td>
+											</tr>
+											<tr>
+												<td class="center">2</td>
+												<td class="left">Custom Services</td>
+												<td class="left">Instalation and Customization (cost per hour)</td>
+
+												<td class="right">$150,00</td>
+												<td class="center">20</td>
+												<td class="right">$3.000,00</td>
+											</tr>
+											<tr>
+												<td class="center">3</td>
+												<td class="left">Hosting</td>
+												<td class="left">1 year subcription</td>
+
+												<td class="right">$499,00</td>
+												<td class="center">1</td>
+												<td class="right">$499,00</td>
+											</tr>
+											<tr>
+												<td class="center">4</td>
+												<td class="left">Platinum Support</td>
+												<td class="left">1 year subcription 24/7</td>
+
+												<td class="right">$3.999,00</td>
+												<td class="center">1</td>
+												<td class="right">$3.999,00</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="row">
+									<div class="col-lg-12 col-sm-2">
+										<table class="table table-clear">
+											<tbody>
+												<tr>
+													<td class="left">
+														<strong>Subtotal</strong>
+													</td>
+													<td class="right">$8.497,00</td>
+												</tr>
+												<tr>
+													<td class="left">
+														<strong>Discount (20%)</strong>
+													</td>
+													<td class="right">$1,699,40</td>
+												</tr>
+												<tr>
+													<td class="left">
+														<strong>VAT (10%)</strong>
+													</td>
+													<td class="right">$679,76</td>
+												</tr>
+												<tr>
+													<td class="left">
+														<strong>Total</strong>
+													</td>
+													<td class="right">
+														<strong>$7.477,36</strong>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
