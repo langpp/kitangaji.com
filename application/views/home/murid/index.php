@@ -1,179 +1,175 @@
-    <section class="hero-wrap js-fullheight" style="background-image: url('<?php echo base_url();?>assets/home/images/bg_1.jpg');" data-section="home">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
-          <div class="ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Siap Belajar Sekarang?</h1>
-            <p class="mb-4 col-md-8 offset-md-2" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+<div class="main-content">
+  <section class="section">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="section-header">
+            <div>Selamat Datang Murid di Dashboard Kitabisangaji.com</div>
+          </h1>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h4><a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-primary">Detail</a></h4>
+          </div>
+          <div class="card-body"> 
+            <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-1.jpeg" class="img-fluid w-100">
+            <span class="badge badge-warning mt-2 mb-2"><i class="fas fa-calendar"></i> 2019/06/26</span>
+            <span class="badge badge-info mt-2 mb-2"><i class="fas fa-tag"></i> Yayasan</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p><a href="#" class="btn btn-primary py-3 px-4" data-toggle="modal" data-target="#modalAppointment">Belajar Sekarang</a></p>
+            consequat.</p>
+          </div>
+          <div class="card-footer text-right">
+            <a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-primary">Detail</a> 
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="ftco-section">
-     <div class="container">
-      <h2 class="text-center ftco-animate">Ayo Ikut Belajar</h2>
-      <h5 class="text-center mb-5 ftco-animate">Halo Murid, pilih campaign yang ingin Anda ikuti</h5>
-
-      <div class="row d-flex ftco-animate">
-        <div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
-          <div class="blog-entry justify-content-end w-100">
-            <a href="<?php echo base_url();?>detail" class="block-20" style="background-image: url('<?php echo base_url(); ?>assets/home/images/image_1.jpg');">
-            </a>
-            <div class="text mt-3 mb-3 float-right d-block">
-              <h3 class="heading"><a href="<?php echo base_url();?>detail">All you want to know about industrial laws</a></h3>
-              <p class="mt-3">
-                Organisasi Amal <span class="badge badge-info"><i class="fas fa-check"></i></span>
-              </p>
-              <p>
-                <div class="progress">
-                  <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </p>
-              <div class="float-left">
-                <h5>Terkumpul</h5>
-                <h6>Rp 123.123.123</h6>
-              </div>
-              <p class="float-right">
-               <h5 class="text-right">Sisa Hari</h5>
-               <h6 class="text-right">5 Hari</h6>
-             </p>
-           </div>
-         </div>
-       </div>
-       <div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
-        <div class="blog-entry justify-content-end w-100">
-          <a href="<?php echo base_url();?>detail" class="block-20" style="background-image: url('<?php echo base_url(); ?>assets/home/images/image_2.jpg');">
-          </a>
-          <div class="text mt-3 mb-3 float-right d-block">
-            <h3 class="heading"><a href="<?php echo base_url();?>detail">All you want to know about industrial laws</a></h3>
-            <p class="mt-3">
-              Organisasi Amal <span class="badge badge-info"><i class="fas fa-check"></i></span>
-            </p>
-            <p>
-              <div class="progress">
-                <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </p>
-            <div class="float-left">
-              <h5>Terkumpul</h5>
-              <h6>Rp 123.123.123</h6>
-            </div>
-            <p class="float-right">
-             <h5 class="text-right">Sisa Hari</h5>
-             <h6 class="text-right">5 Hari</h6>
-           </p>
-         </div>
-       </div>
-     </div>
-     <div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
-      <div class="blog-entry justify-content-end w-100">
-        <a href="<?php echo base_url();?>detail" class="block-20" style="background-image: url('<?php echo base_url(); ?>assets/home/images/image_3.jpg');">
-        </a>
-        <div class="text mt-3 mb-3 float-right d-block">
-          <h3 class="heading"><a href="<?php echo base_url();?>detail">All you want to know about industrial laws</a></h3>
-          <p class="mt-3">
-            Organisasi Amal <span class="badge badge-info"><i class="fas fa-check"></i></span>
-          </p>
-          <p>
-            <div class="progress">
-              <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </p>
-          <div class="float-left">
-            <h5>Terkumpul</h5>
-            <h6>Rp 123.123.123</h6>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h4><a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-primary">Detail</a></h4>
           </div>
-          <p class="float-right">
-           <h5 class="text-right">Sisa Hari</h5>
-           <h6 class="text-right">5 Hari</h6>
-         </p>
-       </div>
-     </div>
-   </div>
-   <div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
-    <div class="blog-entry justify-content-end w-100">
-      <a href="<?php echo base_url();?>detail" class="block-20" style="background-image: url('<?php echo base_url(); ?>assets/home/images/image_1.jpg');">
-      </a>
-      <div class="text mt-3 mb-3 float-right d-block">
-        <h3 class="heading"><a href="<?php echo base_url();?>detail">All you want to know about industrial laws</a></h3>
-        <p class="mt-3">
-          Organisasi Amal <span class="badge badge-info"><i class="fas fa-check"></i></span>
-        </p>
-        <p>
-          <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="card-body">
+            <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-1.jpeg" class="img-fluid w-100">
+            <span class="badge badge-warning mt-2 mb-2"><i class="fas fa-calendar"></i> 2019/06/26</span>
+            <span class="badge badge-info mt-2 mb-2"><i class="fas fa-tag"></i> Yayasan</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
           </div>
-        </p>
-        <div class="float-left">
-          <h5>Terkumpul</h5>
-          <h6>Rp 123.123.123</h6>
+          <div class="card-footer text-right">
+            <a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-primary">Detail</a> 
+          </div>
         </div>
-        <p class="float-right">
-         <h5 class="text-right">Sisa Hari</h5>
-         <h6 class="text-right">5 Hari</h6>
-       </p>
-     </div>
-   </div>
- </div>
- <div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
-  <div class="blog-entry justify-content-end w-100">
-    <a href="<?php echo base_url();?>detail" class="block-20" style="background-image: url('<?php echo base_url(); ?>assets/home/images/image_2.jpg');">
-    </a>
-    <div class="text mt-3 mb-3 float-right d-block">
-      <h3 class="heading"><a href="<?php echo base_url();?>detail">All you want to know about industrial laws</a></h3>
-      <p class="mt-3">
-        Organisasi Amal <span class="badge badge-info"><i class="fas fa-check"></i></span>
-      </p>
-      <p>
-        <div class="progress">
-          <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-      </p>
-      <div class="float-left">
-        <h5>Terkumpul</h5>
-        <h6>Rp 123.123.123</h6>
       </div>
-      <p class="float-right">
-       <h5 class="text-right">Sisa Hari</h5>
-       <h6 class="text-right">5 Hari</h6>
-     </p>
-   </div>
- </div>
-</div>
-<div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
-  <div class="blog-entry justify-content-end w-100">
-    <a href="<?php echo base_url();?>detail" class="block-20" style="background-image: url('<?php echo base_url(); ?>assets/home/images/image_3.jpg');">
-    </a>
-    <div class="text mt-3 mb-3 float-right d-block">
-      <h3 class="heading"><a href="<?php echo base_url();?>detail">All you want to know about industrial laws</a></h3>
-      <p class="mt-3">
-        Organisasi Amal <span class="badge badge-info"><i class="fas fa-check"></i></span>
-      </p>
-      <p>
-        <div class="progress">
-          <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h4><a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-primary">Detail</a></h4>
+          </div>
+          <div class="card-body">
+            <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-1.jpeg" class="img-fluid w-100">
+            <span class="badge badge-warning mt-2 mb-2"><i class="fas fa-calendar"></i> 2019/06/26</span>
+            <span class="badge badge-info mt-2 mb-2"><i class="fas fa-tag"></i> Yayasan</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+          </div>
+          <div class="card-footer text-right">
+            <a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-primary">Detail</a> 
+          </div>
         </div>
-      </p>
-      <div class="float-left">
-        <h5>Terkumpul</h5>
-        <h6>Rp 123.123.123</h6>
       </div>
-      <p class="float-right">
-       <h5 class="text-right">Sisa Hari</h5>
-       <h6 class="text-right">5 Hari</h6>
-     </p>
-   </div>
- </div>
-</div>
-</div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h4><a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-primary">Detail</a></h4>
+          </div>
+          <div class="card-body">
+            <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-1.jpeg" class="img-fluid w-100">
+            <span class="badge badge-warning mt-2 mb-2"><i class="fas fa-calendar"></i> 2019/06/26</span>
+            <span class="badge badge-info mt-2 mb-2"><i class="fas fa-tag"></i> Yayasan</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+          </div>
+          <div class="card-footer text-right">
+            <a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-primary">Detail</a> 
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h4><a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-primary">Detail</a></h4>
+          </div>
+          <div class="card-body">
+            <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-1.jpeg" class="img-fluid w-100">
+            <span class="badge badge-warning mt-2 mb-2"><i class="fas fa-calendar"></i> 2019/06/26</span>
+            <span class="badge badge-info mt-2 mb-2"><i class="fas fa-tag"></i> Yayasan</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+          </div>
+          <div class="card-footer text-right">
+            <a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-primary">Detail</a> 
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h4><a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-primary">Detail</a></h4>
+          </div>
+          <div class="card-body">
+            <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-1.jpeg" class="img-fluid w-100">
+            <span class="badge badge-warning mt-2 mb-2"><i class="fas fa-calendar"></i> 2019/06/26</span>
+            <span class="badge badge-info mt-2 mb-2"><i class="fas fa-tag"></i> Yayasan</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+          </div>
+          <div class="card-footer text-right">
+            <a href="<?php echo base_url();?>murid/detail" class="btn btn-action btn-primary">Detail</a> 
+          </div>
+        </div>
+      </div>
 
-<h2 class="text-center"><button type="button" class="btn btn-info">Lihat Semua</button></h2>
+      <div class="float-right">
+        <nav class="d-inline-block">
+          <ul class="pagination mb-0">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" tabindex="-1"><i class="ion ion-chevron-left"></i></a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1 <span class="sr-only">(current)</span></a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#"><i class="ion ion-chevron-right"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+  </section>
 </div>
-</section>
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Detail KBM</h4>
+      </div>
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="text-center">
+          <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-1.jpeg" class="img-fluid">
+        </div><br>
+        <table class="table table-hover table-striped">
+          <tr>
+            <td><b>Tanggal Upload</b></td>
+            <td>2019/06/26</td>
+          </tr>
+          <tr>
+            <td><b>Status</b></td>
+            <td>Aktif</td>
+          </tr>
+        </table>
+      </div>
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

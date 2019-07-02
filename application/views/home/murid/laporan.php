@@ -1,193 +1,132 @@
-<br><br>
-<section class="ftco-services mt-5 mt-5-nomedia mb-5">
-	<div class="container">
-		<div class="row justify-content-center pb-5">
-			<div class="col-md-10 heading-section text-center ftco-animate fadeInUp ftco-animated">
-				<span class="subheading">Laporan</span>
-				<h2 class="mb-4">Laporan Progres Diri Anda</h2>
-				<p>Tidak Ada Hasil Yang Sia Sia Ketika Kita Berusaha</p>
-			</div>
-		</div>
-		<div class="row no-gutters">
-			<div class="col-md-5 col-lg-3 ftco-animate py-4 nav-link-wrap fadeInUp ftco-animated">
-				<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-					<a class="nav-link px-4 py-1" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="false"><span class="mr-3 flaticon-ideas"></span> Membaca Alquran</a>
+<div class="main-content">
+  <section class="section">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="section-header">
+          <div>Detail Kbm</div>
+        </h1>
 
-					<a class="nav-link px-4 py-1 show" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false"><span class="mr-3 flaticon-flasks"></span> Hukum Tajwid</a>
+        <div class="card">
+          <div class="card-header">
+            <h4>Detail Rencana Kbm Terbaru</h4>
+          </div>
+          <div class="card-body">
+            <div class="row no-gutters">
+             <div class="col-md-5 col-lg-3 ftco-animate py-4 nav-link-wrap fadeInUp ftco-animated">
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+               <a class="nav-link px-4 py-1 active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="false"><span class="mr-3 flaticon-ideas"></span> Membaca Alquran</a>
 
-					<a class="nav-link px-4 py-1 show" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false"><span class="mr-3 flaticon-analysis"></span> Fasih</a>
+               <a class="nav-link px-4 py-1 show" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false"><span class="mr-3 flaticon-flasks"></span> Hukum Tajwid</a>
 
-					<a class="nav-link px-4 py-1 show" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false"><span class="mr-3 flaticon-web-design"></span> Kelancaran Membaca</a>
+               <a class="nav-link px-4 py-1 show" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false"><span class="mr-3 flaticon-analysis"></span> Fasih</a>
+
+               <a class="nav-link px-4 py-1 show" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false"><span class="mr-3 flaticon-web-design"></span> Kelancaran Membaca</a>
 
 
-					<a class="nav-link px-4 py-1 show" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false"><span class="mr-3 flaticon-innovation"></span> Mengenal Tanda Baca</a>
+               <a class="nav-link px-4 py-1 show" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false"><span class="mr-3 flaticon-innovation"></span> Mengenal Tanda Baca</a>
 
-					<a class="nav-link px-4 py-1 show" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="false"><span class="mr-3 flaticon-idea"></span> Fire Accident</a>
+             </div>
+           </div>
+           <div class="col-md-7 col-lg-9 ftco-animate p-4 p-md-5 d-flex align-items-center fadeInUp ftco-animated">
 
-					<a class="nav-link px-4 py-1 show" id="v-pills-7-tab" data-toggle="pill" href="#v-pills-7" role="tab" aria-controls="v-pills-7" aria-selected="false"><span class="mr-3 flaticon-idea"></span> Financial Law</a>
+            <div class="tab-content pl-lg-4" id="v-pills-tabContent">
 
-					<a class="nav-link px-4 py-1 show" id="v-pills-8-tab" data-toggle="pill" href="#v-pills-8" role="tab" aria-controls="v-pills-8" aria-selected="false"><span class="mr-3 flaticon-idea"></span> Drug Offenses</a>
+             <div class="tab-pane fade active show" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+              <div class="d-lg-flex">
+               <div class="text">
+                <h2 class="mb-4">Membaca Alquran</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+              </div>
+            </div>
+          </div>
 
-					<a class="nav-link px-4 py-1 show" id="v-pills-9-tab" data-toggle="pill" href="#v-pills-9" role="tab" aria-controls="v-pills-9" aria-selected="false"><span class="mr-3 flaticon-idea"></span> Sexual Offenses</a>
+          <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+            <div class="d-lg-flex">
+             <div class="text">
+              <h2 class="mb-4">Hukum Tajwid</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+              <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+            </div>
+          </div>
+        </div>
 
-					<a class="nav-link px-4 py-1 active show" id="v-pills-10-tab" data-toggle="pill" href="#v-pills-10" role="tab" aria-controls="v-pills-10" aria-selected="true"><span class="mr-3 flaticon-ux-design"></span> Property Law</a>
-				</div>
-			</div>
-			<div class="col-md-7 col-lg-9 ftco-animate p-4 p-md-5 d-flex align-items-center fadeInUp ftco-animated">
+        <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+          <div class="d-lg-flex">
+           <div class="text">
+            <h2 class="mb-4">Fasih</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+            <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+          </div>
+        </div>
+      </div>
 
-				<div class="tab-content pl-lg-4" id="v-pills-tabContent">
+      <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+        <div class="d-lg-flex">
+         <div class="text">
+          <h2 class="mb-4">Kelancaran Membaca</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+          <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+        </div>
+      </div>
+    </div>
 
-					<div class="tab-pane fade" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
-						<div class="d-lg-flex">
-							<div class="text">
-								<h2 class="mb-4">Membaca Alquran</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-								<p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-							</div>
-						</div>
-					</div>
+    <div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
+      <div class="d-lg-flex">
+       <div class="text">
+        <h2 class="mb-4">Mengenal Tanda Baca</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+        <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+      </div>
+    </div>
+  </div>
 
-					<div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
-						<div class="d-lg-flex">
-							<div class="text">
-								<h2 class="mb-4">Hukum Tajwid</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-								<p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-							</div>
-						</div>
-					</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-					<div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
-						<div class="d-lg-flex">
-							<div class="text">
-								<h2 class="mb-4">Fasih</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-								<p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
-						<div class="d-lg-flex">
-							<div class="text">
-								<h2 class="mb-4">Kelancaran Membaca</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-								<p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
-						<div class="d-lg-flex">
-							<div class="text">
-								<h2 class="mb-4">Mengenal Tanda Baca</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-								<p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="tab-pane fade" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-6-tab">
-						<div class="d-lg-flex">
-							<div class="text">
-								<h2 class="mb-4">Fire Accident</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-								<p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="tab-pane fade" id="v-pills-7" role="tabpanel" aria-labelledby="v-pills-7-tab">
-						<div class="d-lg-flex">
-							<div class="text">
-								<h2 class="mb-4">Financial Law</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-								<p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="tab-pane fade" id="v-pills-8" role="tabpanel" aria-labelledby="v-pills-8-tab">
-						<div class="d-lg-flex">
-							<div class="text">
-								<h2 class="mb-4">Drug Offenses</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-								<p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="tab-pane fade" id="v-pills-9" role="tabpanel" aria-labelledby="v-pills-9-tab">
-						<div class="d-lg-flex">
-							<div class="text">
-								<h2 class="mb-4">Sexual Offenses</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-								<p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="tab-pane fade active show" id="v-pills-10" role="tabpanel" aria-labelledby="v-pills-10-tab">
-						<div class="d-lg-flex">
-							<div class="text">
-								<h2 class="mb-4">Property Law</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-								<p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<div class="row">
+ <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+  <div class="card mb-4">
+   <div class="card-body">
+    <div id="chart1"></div>
+  </div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-12">
+  <div class="card mb-4">
+   <div class="card-body">
+    <div id="chart2"></div>
+  </div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-12">
+  <div class="card mb-4">
+   <div class="card-body">
+    <div id="chart3"></div>
+  </div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+  <div class="card mb-4">
+   <div class="card-body">
+    <div id="chart4"></div>
+  </div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+  <div class="card mb-4">
+   <div class="card-body">
+    <div id="chart5"></div>
+  </div>
+</div>
+</div>
+</div>
+</div>
 </section>
-<section class="ftco-services mt-5 pt-5 mt-5-nomedia pb-5 bg-light">
-	<div class="container">
-		<div class="row justify-content-center pb-5">
-			<div class="col-md-10 heading-section text-center ftco-animate fadeInUp ftco-animated">
-				<h2 class="mb-4">Grafik Progres Diri Anda</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-4 col-12">
-				<div class="card mb-4">
-					<div class="card-body">
-						<div id="chart1"></div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-12">
-				<div class="card mb-4">
-					<div class="card-body">
-						<div id="chart2"></div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-12">
-				<div class="card mb-4">
-					<div class="card-body">
-						<div id="chart3"></div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-				<div class="card mb-4">
-					<div class="card-body">
-						<div id="chart4"></div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-				<div class="card mb-4">
-					<div class="card-body">
-						<div id="chart5"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
+</div>
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/highcharts-more.js"></script>
 <script src="https://code.highcharts.com/modules/series-label.js"></script>

@@ -1,199 +1,116 @@
-<section class="ftco-section padding-ftco bg-light mt-5 mt-5-nomedia">
- <div class="container">
-   <div class="row">
-     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ftco-animate">
-       <h5 class="media-text-center">Halo #OrangBaik,<br> Pilih campaign yang ingin Anda bantu</h5>
-       <br>
-     </div>
-     <div class="col-lg-6 col-md-6 col-sm-12 ftco-animate">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6 mb-2">
-         <div class="dropdown">
-          <button type="button" class="btn dropdown-toggle w-100 btn-drop-donasi" data-toggle="dropdown">
-            Semua Kategori
-          </button>
-          <div class="dropdown-menu drop-donasi">
-            <a class="dropdown-item" href="#">Link 1</a>
-            <a class="dropdown-item" href="#">Link 2</a>
-            <a class="dropdown-item" href="#">Link 3</a>
+<div class="main-content">
+  <section class="section">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="section-header">
+          <div>Rencana KBM</div>
+        </h1>
+
+        <div class="card">
+          <div class="card-header">
+            <h4>Data Rencana KBM Terbaru</h4>
           </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-striped table-hover" id="dataTable">
+                <thead>
+                 <tr>
+                  <th class="text-center">No</th>
+                  <th>Task Name</th>
+                  <th>Progress</th>
+                  <th>Guru Pengajar</th>
+                  <th>Due Date</th>
+                  <th>Dana Terkumpul</th>
+                  <th>Status</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td width="40">
+                    1
+                  </td>
+                  <td>Create a mobile app</td>
+                  <td class="align-middle">
+                    <div class="progress" style="height: 4px;" data-toggle="tooltip" title="" data-original-title="100%">
+                      <div class="progress-bar bg-success" style="width: 100%;"></div>
+                    </div>
+                  </td>
+                  <td>
+                    <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-4.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Wildan Ahdian">
+                  </td>
+                  <td>2018-01-20</td>
+                  <td>Rp 20.000.000</td>
+                  <td><div class="badge badge-success">Completed</div></td>
+                  <td><a href="<?php echo base_url();?>donatur/detail" class="btn btn-action btn-secondary">Detail</a></td>
+                </tr>
+                <tr>
+                  <td>
+                   2
+                 </td>
+                 <td>Redesign homepage</td>
+                 <td class="align-middle">
+                  <div class="progress" style="height: 4px;" data-toggle="tooltip" title="" data-original-title="0%">
+                    <div class="progress-bar" style="width: 10%;"></div>
+                  </div>
+                </td>
+                <td>
+                  <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-4.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Nur Alpiana">
+                  <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-1.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Hariono Yusup">
+                  <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-2.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Bagus Dwi Cahya">
+                </td>
+                <td>2018-04-10</td>
+                <td>Rp 20.000.000</td>
+                <td><div class="badge badge-info">Todo</div></td>
+                <td><a href="<?php echo base_url();?>donatur/detail" class="btn btn-action btn-secondary">Detail</a></td>
+              </tr>
+              <tr>
+                <td>
+                  3
+                </td>
+                <td>Backup database</td>
+                <td class="align-middle">
+                  <div class="progress" style="height: 4px;" data-toggle="tooltip" title="" data-original-title="70%">
+                    <div class="progress-bar bg-info" style="width: 70%;"></div>
+                  </div>
+                </td>
+                <td>
+                  <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-5.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Rizal Fakhri">
+                  <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-2.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Hasan Basri">
+                </td>
+                <td>2018-01-29</td>
+                <td>Rp 20.000.000</td>
+                <td><div class="badge badge-warning">In Progress</div></td>
+                <td><a href="<?php echo base_url();?>donatur/detail" class="btn btn-action btn-secondary">Detail</a></td>
+              </tr>
+              <tr>
+                <td>
+                  4
+                </td>
+                <td>Input data</td>
+                <td class="align-middle">
+                  <div class="progress" style="height: 4px;" data-toggle="tooltip" title="" data-original-title="100%">
+                    <div class="progress-bar bg-success" style="width: 80%;"></div>
+                  </div>
+                </td>
+                <td>
+                  <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-2.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Rizal Fakhri">
+                  <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-5.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Isnap Kiswandi">
+                  <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-4.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Yudi Nawawi">
+                  <img alt="image" src="<?php echo base_url();?>assets/dashboard/img/avatar/avatar-1.jpeg" class="rounded-circle" width="35" data-toggle="title" title="Khaerul Anwar">
+                </td>
+                <td>2018-01-16</td>
+                <td>Rp 20.000.000</td>
+                <td><div class="badge badge-success">Completed</div></td>
+                <td><a href="<?php echo base_url();?>donatur/detail" class="btn btn-action btn-secondary">Detail</a></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-6">
-        <div class="dropdown">
-          <button type="button" class="btn dropdown-toggle w-100 btn-drop-donasi" data-toggle="dropdown">
-            Semua Campaigner
-          </button>
-          <div class="dropdown-menu drop-donasi">
-            <a class="dropdown-item" href="#">Link 1</a>
-            <a class="dropdown-item" href="#">Link 2</a>
-            <a class="dropdown-item" href="#">Link 3</a>
-          </div>
-        </div>
-      </div>
+
     </div>
   </div>
-
-</div>
 </div>
 </section>
-
-<section class="ftco-section">
- <div class="container">
-  <h5 class=" ftco-animate media-text-center">menampilkan <u>3.503</u> campaign dari <u>Semua Campaigner</u></h5><br>
-  <div class="row d-flex ftco-animate">
-    <div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
-      <div class="blog-entry justify-content-end w-100">
-        <a href="<?php echo base_url();?>donatur/detail" class="block-20" style="background-image: url('<?php echo base_url(); ?>assets/home/images/image_1.jpg');">
-        </a>
-        <div class="text mt-3 mb-3 float-right d-block">
-          <h3 class="heading"><a href="<?php echo base_url();?>donatur/detail">All you want to know about industrial laws</a></h3>
-          <p class="mt-3">
-            Organisasi Amal <span class="badge badge-info"><i class="fas fa-check"></i></span>
-          </p>
-          <p>
-            <div class="progress">
-              <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </p>
-          <div class="float-left">
-            <h5>Terkumpul</h5>
-            <h6>Rp 123.123.123</h6>
-          </div>
-          <p class="float-right">
-           <h5 class="text-right">Sisa Hari</h5>
-           <h6 class="text-right">5 Hari</h6>
-         </p>
-       </div>
-     </div>
-   </div>
-   <div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
-    <div class="blog-entry justify-content-end w-100">
-      <a href="<?php echo base_url();?>donatur/detail" class="block-20" style="background-image: url('<?php echo base_url(); ?>assets/home/images/image_2.jpg');">
-      </a>
-      <div class="text mt-3 mb-3 float-right d-block">
-        <h3 class="heading"><a href="<?php echo base_url();?>donatur/detail">All you want to know about industrial laws</a></h3>
-        <p class="mt-3">
-          Organisasi Amal <span class="badge badge-info"><i class="fas fa-check"></i></span>
-        </p>
-        <p>
-          <div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </p>
-        <div class="float-left">
-          <h5>Terkumpul</h5>
-          <h6>Rp 123.123.123</h6>
-        </div>
-        <p class="float-right">
-         <h5 class="text-right">Sisa Hari</h5>
-         <h6 class="text-right">5 Hari</h6>
-       </p>
-     </div>
-   </div>
- </div>
- <div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
-  <div class="blog-entry justify-content-end w-100">
-    <a href="<?php echo base_url();?>donatur/detail" class="block-20" style="background-image: url('<?php echo base_url(); ?>assets/home/images/image_3.jpg');">
-    </a>
-    <div class="text mt-3 mb-3 float-right d-block">
-      <h3 class="heading"><a href="<?php echo base_url();?>donatur/detail">All you want to know about industrial laws</a></h3>
-      <p class="mt-3">
-        Organisasi Amal <span class="badge badge-info"><i class="fas fa-check"></i></span>
-      </p>
-      <p>
-        <div class="progress">
-          <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-      </p>
-      <div class="float-left">
-        <h5>Terkumpul</h5>
-        <h6>Rp 123.123.123</h6>
-      </div>
-      <p class="float-right">
-       <h5 class="text-right">Sisa Hari</h5>
-       <h6 class="text-right">5 Hari</h6>
-     </p>
-   </div>
- </div>
 </div>
-<div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
-  <div class="blog-entry justify-content-end w-100">
-    <a href="<?php echo base_url();?>donatur/detail" class="block-20" style="background-image: url('<?php echo base_url(); ?>assets/home/images/image_1.jpg');">
-    </a>
-    <div class="text mt-3 mb-3 float-right d-block">
-      <h3 class="heading"><a href="<?php echo base_url();?>donatur/detail">All you want to know about industrial laws</a></h3>
-      <p class="mt-3">
-        Organisasi Amal <span class="badge badge-info"><i class="fas fa-check"></i></span>
-      </p>
-      <p>
-        <div class="progress">
-          <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-      </p>
-      <div class="float-left">
-        <h5>Terkumpul</h5>
-        <h6>Rp 123.123.123</h6>
-      </div>
-      <p class="float-right">
-       <h5 class="text-right">Sisa Hari</h5>
-       <h6 class="text-right">5 Hari</h6>
-     </p>
-   </div>
- </div>
-</div>
-<div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
-  <div class="blog-entry justify-content-end w-100">
-    <a href="<?php echo base_url();?>donatur/detail" class="block-20" style="background-image: url('<?php echo base_url(); ?>assets/home/images/image_2.jpg');">
-    </a>
-    <div class="text mt-3 mb-3 float-right d-block">
-      <h3 class="heading"><a href="<?php echo base_url();?>donatur/detail">All you want to know about industrial laws</a></h3>
-      <p class="mt-3">
-        Organisasi Amal <span class="badge badge-info"><i class="fas fa-check"></i></span>
-      </p>
-      <p>
-        <div class="progress">
-          <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-      </p>
-      <div class="float-left">
-        <h5>Terkumpul</h5>
-        <h6>Rp 123.123.123</h6>
-      </div>
-      <p class="float-right">
-       <h5 class="text-right">Sisa Hari</h5>
-       <h6 class="text-right">5 Hari</h6>
-     </p>
-   </div>
- </div>
-</div>
-<div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
-  <div class="blog-entry justify-content-end w-100">
-    <a href="<?php echo base_url();?>donatur/detail" class="block-20" style="background-image: url('<?php echo base_url(); ?>assets/home/images/image_3.jpg');">
-    </a>
-    <div class="text mt-3 mb-3 float-right d-block">
-      <h3 class="heading"><a href="<?php echo base_url();?>donatur/detail">All you want to know about industrial laws</a></h3>
-      <p class="mt-3">
-        Organisasi Amal <span class="badge badge-info"><i class="fas fa-check"></i></span>
-      </p>
-      <p>
-        <div class="progress">
-          <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-      </p>
-      <div class="float-left">
-        <h5>Terkumpul</h5>
-        <h6>Rp 123.123.123</h6>
-      </div>
-      <p class="float-right">
-       <h5 class="text-right">Sisa Hari</h5>
-       <h6 class="text-right">5 Hari</h6>
-     </p>
-   </div>
- </div>
-</div>
-</div>
-
-<h2 class="text-center"><button type="button" class="btn btn-info">Load More</button></h2>
-</div>
-</section>

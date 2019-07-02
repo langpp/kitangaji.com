@@ -1,29 +1,19 @@
-<script src="<?php echo base_url();?>assets/home/js/jquery.min.js"></script>
-<script src="<?php echo base_url();?>assets/home/js/jquery-migrate-3.0.1.min.js"></script>
-<script src="<?php echo base_url();?>assets/home/js/popper.min.js"></script>
-<script src="<?php echo base_url();?>assets/home/js/bootstrap.min.js"></script>
-<script src="<?php echo base_url();?>assets/home/js/jquery.waypoints.min.js"></script>
-<script src="<?php echo base_url();?>assets/home/js/jquery.stellar.min.js"></script>
-<script src="<?php echo base_url();?>assets/home/js/owl.carousel.min.js"></script>
-<script src="<?php echo base_url();?>assets/home/js/jquery.animateNumber.min.js"></script>
-<script src="<?php echo base_url();?>assets/home/js/scrollax.min.js"></script>
-<script type="text/javascript">
-  $(document).ready(function(){
-    $('.myslider').owlCarousel({
-      items:1,
-      nav: false,
-      dots: true,
-      autoplay:true,
-      loop:true,
+  <script src="<?php echo base_url();?>assets/dashboard/modules/jquery.min.js"></script>
+  <script src="<?php echo base_url();?>assets/dashboard/modules/popper.js"></script>
+  <script src="<?php echo base_url();?>assets/dashboard/modules/tooltip.js"></script>
+  <script src="<?php echo base_url();?>assets/dashboard/modules/bootstrap/js/bootstrap.min.js"></script>
+  <script src="<?php echo base_url();?>assets/dashboard/modules/nicescroll/jquery.nicescroll.min.js"></script>
+  <script src="<?php echo base_url();?>assets/dashboard/modules/scroll-up-bar/dist/scroll-up-bar.min.js"></script>
+  <script src="<?php echo base_url();?>assets/dashboard/js/sa-functions.js"></script>
+  
+  <script src="<?php echo base_url();?>assets/dashboard/modules/select2/select2.min.js"></script>
+  <script src="<?php echo base_url();?>assets/dashboard/modules/chart.min.js"></script>
+  <script src="<?php echo base_url();?>assets/dashboard/js/scripts.js"></script>
+  <script src="<?php echo base_url();?>assets/dashboard/js/custom.js"></script>
+  <script src="<?php echo base_url();?>assets/dashboard/modules/datatables/datatables.min.js"></script>
+  <script type="text/javascript" src="https://rawgit.com/utatti/perfect-scrollbar/master/dist/perfect-scrollbar.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#dataTable").dataTable();
     });
-    $(".search-box").hide();
-    $(".openSearchbox").click(function(){
-      $(".menusBar").hide();
-      $(".search-box").fadeIn();
-    });
-    $(".close-search-box").click(function(){
-      $(".search-box").hide();
-      $(".menusBar").fadeIn();
-    });
-  });
-</script>
+  </script>

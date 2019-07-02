@@ -11,7 +11,10 @@ class Donatur extends CI_Controller {
 	{
 		$page = array(
 			"head" => $this->load->view('home/donatur/template/head', array("title" => $title), true),
+			"sidebar" => $this->load->view('home/donatur/template/sidebar', false, true),
+			"header" => $this->load->view('home/donatur/template/header', false, true),
 			"main_js" => $this->load->view('home/donatur/template/main_js', false, true),
+			"footer" => $this->load->view('home/donatur/template/footer', false, true)
 		);
 		return $page;
 	}
@@ -21,7 +24,7 @@ class Donatur extends CI_Controller {
 		$path = "";
 		$data = array(
 			"page" => $this->load("Beranda", $path),
-			"content" =>$this->load->view('home/index', false, true)
+			"content" =>$this->load->view('home/donatur/index', false, true)
 		);
 		$this->load->view('home/donatur/template/default_template', $data);
 	}

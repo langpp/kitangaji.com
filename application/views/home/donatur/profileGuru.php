@@ -1,10 +1,14 @@
-<br><br>
-<section class="ftco-animate mt-5 mt-5-nomedia">
-  <div class="container">
+      <div class="main-content">
+        <section class="section">
+          <h1 class="section-header">
+            <div>Profile Guru</div>
+          </h1>
+ <div class="card">
+          <div class="card-header">
+            <h4>Data Profile Guru Kitangaji.com</h4>
+          </div>
+          <div class="card-body">
     <div class="row justify-content-center pb-5">
-      <div class="col-md-10 heading-section text-center ftco-animate fadeInUp ftco-animated">
-        <h3>Profile Guru</h3>
-      </div>
     </div>
     <div class="row">
       <div class="col-md-4">
@@ -93,4 +97,6 @@
       </div>
     </div>
   </div>
+</div>
 </section>
+</div>

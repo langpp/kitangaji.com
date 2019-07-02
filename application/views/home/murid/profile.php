@@ -1,32 +1,41 @@
-<br><br>
-<section class="mt-5 mb-5 mt-5-nomedia">
-	<div class="container">
-		<div class="teacher-name">
-			<div class="row">
-				<div class="col-sm-9">
-					<h2><strong>Rick Sanchez</strong></h2>
-				</div>
-				<div class="col-sm-3">
-					<div class="button pull-right">
-						<a href="#" class="btn btn-outline-success btn-sm">Edit Profile <i class="fa fa-pencil"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
+<div class="main-content">
+  <section class="section">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="section-header">
+          <div>My Profile</div>
+        </h1>
+        <div class="card">
+          <div class="card-header">
+            <h4>My Profile</h4>
+          </div>
+          <div class="card-body">
+    <div class="teacher-name">
+      <div class="row">
+        <div class="col-sm-9">
+          <h2><strong>Rick Sanchez</strong></h2>
+        </div>
+        <div class="col-sm-3">
+          <div class="button pull-right">
+            <a href="#" class="btn btn-outline-success btn-sm">Edit Profile <i class="fa fa-pencil"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<div class="row" style="margin-top:20px;">
-			<div class="col-sm-3 text-center"> 
-				<a href="#"> <img class="rounded-circle" src="//images.weserv.nl/?url=i.imgur.com/Md9jS0Ib.jpg" alt="Rick" ></a>
-			</div>
+    <div class="row" style="margin-top:20px;">
+      <div class="col-sm-3 text-center"> 
+        <a href="#"> <img class="rounded-circle" src="//images.weserv.nl/?url=i.imgur.com/Md9jS0Ib.jpg" alt="Rick" ></a>
+      </div>
 
-			<div class="col-sm-6 mt-4"> 
-				<h5> Associate Professor, <small>Dept. of Alien Agriculture, Jaarvlar-3 University</small></h5>
-				<p>PhD on Molecular Shwanky Physics</p>
-				<p>Address: 123 Cuba str Tampa, Fl, Earth 137</p>
-			</div>
+      <div class="col-sm-6 mt-4"> 
+        <h5> Associate Professor, <small>Dept. of Alien Agriculture, Jaarvlar-3 University</small></h5>
+        <p>PhD on Molecular Shwanky Physics</p>
+        <p>Address: 123 Cuba str Tampa, Fl, Earth 137</p>
+      </div>
 
-			<div class="col-sm-3 text-center social">
-				<!-- <span class="number">Phone:<strong>+0001732226402</strong></span> -->
+      <div class="col-sm-3 text-center social">
+        <!-- <span class="number">Phone:<strong>+0001732226402</strong></span> -->
               <div class="button-email">
                 <a href="mailto:#" class="btn btn-outline-success btn-block"><i class="fa fa-envelope-o"></i> +0001732226402</a>
             </div>
@@ -76,4 +85,6 @@
        </div>
    </div>
 </div> 
+</div>
 </section>
+</div>

@@ -1,12 +1,14 @@
-<br><br>
-<section class="mt-5 mb-5 mt-5-nomedia">
-	<div class="container ftco-animate">
-		<div class="row justify-content-center pb-5">
-			<div class="col-md-10 heading-section text-center ftco-animate fadeInUp ftco-animated">
-				<h3>Donasi Tetap</h3>
-			</div>
-		</div>
-		<div class="row">
+      <div class="main-content">
+        <section class="section">
+          <h1 class="section-header">
+            <div>Donasi Tetap</div>
+          </h1>
+          <div class="card">
+            <div class="card-header">
+              <h4>Data Donasi Tetap</h4>
+            </div>
+            <div class="card-body">
+            		<div class="row">
 			<div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
 				<div class="card text-center">
 					<div class="card-header text-center border-bottom-0 bg-transparent text-success pt-4">
@@ -123,4 +125,6 @@
 			</div>
 		</div>
 	</div>
+</div>
 </section>
+</div>

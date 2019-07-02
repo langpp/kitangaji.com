@@ -11,7 +11,10 @@ class Guru extends CI_Controller {
 	{
 		$page = array(
 			"head" => $this->load->view('home/guru/template/head', array("title" => $title), true),
+			"sidebar" => $this->load->view('home/guru/template/sidebar', false, true),
+			"header" => $this->load->view('home/guru/template/header', false, true),
 			"main_js" => $this->load->view('home/guru/template/main_js', false, true),
+			"footer" => $this->load->view('home/guru/template/footer', false, true)
 		);
 		return $page;
 	}

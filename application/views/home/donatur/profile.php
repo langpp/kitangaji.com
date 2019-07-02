@@ -1,6 +1,15 @@
-<br><br>
-<section class="mt-5 mb-5 mt-5-nomedia">
-	<div class="container">
+<div class="main-content">
+  <section class="section">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="section-header">
+          <div>My Profile</div>
+        </h1>
+        <div class="card">
+          <div class="card-header">
+            <h4>My Profile</h4>
+          </div>
+          <div class="card-body">
 		<div class="teacher-name">
 			<div class="row">
 				<div class="col-sm-9">
@@ -76,4 +85,6 @@
        </div>
    </div>
 </div> 
+</div>
 </section>
+</div>

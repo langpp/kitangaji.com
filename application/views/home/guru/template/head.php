@@ -1,29 +1,16 @@
-<head>
-    <title>KitaNgaji | Guru - <?php echo $title; ?></title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta http-equiv="Cache-control" content="public">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="description" content="Situs donasi dan menggalang dana (fundraising) untuk inisiatif, campaign dan program sosial. Mari bergotong royong membangun Indonesia!" />
-    <meta property="og:title" content="Kitabisa.com - Indonesia&#039;s Fundraising Platform" />
-    <meta property="og:url" content="https://www.kitabisa.com" />
-    <meta property="og:description" content="Situs donasi dan menggalang dana (fundraising) untuk inisiatif, campaign dan program sosial. Mari bergotong royong membangun Indonesia!" />
-    <meta property="og:image" content="img/logo-large.webp" />
-    <meta property="og:type" content="website" />
+<!-- <head> -->
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" name="viewport">
+  <title><?php echo $title?> - Guru Kitangaji.com</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
-    <link rel="icon" type="image/png" href="<?php echo base_url();?>assets/home/images/icon.png">
+  <link rel="icon" type="image/png" href="<?php echo base_url();?>assets/home/images/icon.png">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/dashboard/modules/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/dashboard/modules/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/dashboard/modules/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css">
 
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/home/css/animate.css">
-
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/home/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/home/css/owl.theme.default.min.css">
-
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/home/css/aos.css">
-
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/home/css/style.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/home/css/custom.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/dashboard/modules/datatables/datatables.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/dashboard/modules/select2/select2.min.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/dashboard/css/style.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/dashboard/css/custom.css">
+  <link rel="stylesheet" type="text/css" href="https://rawgit.com/utatti/perfect-scrollbar/master/css/perfect-scrollbar.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/dashboard/modules/datatables/datatables.min.css">
 </head>

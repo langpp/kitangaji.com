@@ -9,9 +9,12 @@ class Murid extends CI_Controller {
 
 	private function load($title = '', $datapath = '')
 	{
-		$page = array(
+$page = array(
 			"head" => $this->load->view('home/murid/template/head', array("title" => $title), true),
+			"sidebar" => $this->load->view('home/murid/template/sidebar', false, true),
+			"header" => $this->load->view('home/murid/template/header', false, true),
 			"main_js" => $this->load->view('home/murid/template/main_js', false, true),
+			"footer" => $this->load->view('home/murid/template/footer', false, true)
 		);
 		return $page;
 	}
