@@ -35,12 +35,12 @@
         </div>
       </div><br>
 
-      <div class="card text-center">
+      <!-- <div class="card text-center">
         <div class="card-body">
           <button class="btn btn-md btn-info btn-block mb-2" type="button"><i class="fab fa-facebook"></i> Daftar Dengan Facebook</button>
           <button class="btn btn-md btn-danger btn-block" type="button"><i class="fab fa-google"></i> Daftar Dengan Google</button>
         </div>
-      </div>
+      </div> -->
 
     </div>
   </div>

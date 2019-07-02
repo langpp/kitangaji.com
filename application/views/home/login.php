@@ -16,9 +16,9 @@
             <a href="#" class="float-right">Need help?</a>
             <a class="btn btn-md btn-primary btn-block mt-5" href="<?php echo base_url();?>dashboard">Sign In</a>
             <!-- <p class="mt-2">Belum punya akun? <a href="<?php echo base_url();?>daftarGuru">Create an account </a></p> -->
-            <p class="text-center mt-3">Atau</p>
+            <!-- <p class="text-center mt-3">Atau</p>
             <button class="btn btn-md btn-info btn-block mb-2" type="button"><i class="fab fa-facebook"></i> Masuk Dengan Facebook</button>
-            <button class="btn btn-md btn-danger btn-block mb-2" type="button"><i class="fab fa-google"></i> Masuk Dengan Google</button>
+            <button class="btn btn-md btn-danger btn-block mb-2" type="button"><i class="fab fa-google"></i> Masuk Dengan Google</button> -->
 
           </form>
         </div>
