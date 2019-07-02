@@ -1,3 +1,6 @@
+      <div class="xclosed">
+        <button type="button" class="btn btn-x-closed btn-sm" id="closeYourSideBar">X</button>
+      </div>
       <div class="main-sidebar">
         <aside id="sidebar-wrapper">
           <div class="sidebar-brand">
@@ -52,6 +55,6 @@
               <a href="<?php echo base_url();?>donatur/profile "><i class="ion ion-person"></i><span>My Profile</span></a>
             </li>
 
-            </ul> 
-          </aside>
-        </div>
+          </ul> 
+        </aside>
+      </div>

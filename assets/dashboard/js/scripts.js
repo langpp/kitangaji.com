@@ -23,7 +23,7 @@ $(function() {
 		// 		cursoropacitymax: .8,
 		// });
 		// var sidebar_nicescroll = $(".main-sidebar").getNiceScroll();
-	
+
 		$(".main-sidebar .sidebar-menu li a.has-dropdown").on('click', function() {
 			var me = $(this);
 
@@ -45,10 +45,16 @@ $(function() {
 		if(body.hasClass('sidebar-gone')) {
 			body.removeClass('sidebar-gone');
 			body.addClass('sidebar-show');
+			if($(window).width() <= 1024) {
+				$("#closeYourSideBar").fadeIn();
+			}
 			// sidebar_nicescroll.resize();
 		}else{
 			body.addClass('sidebar-gone');
 			body.removeClass('sidebar-show');
+			if($(window).width() <= 1024) {
+				$("#closeYourSideBar").hide();
+			}
 			// sidebar_nicescroll.resize();
 		}
 		return false;
@@ -69,21 +75,30 @@ $(function() {
 	var toggleSidebar = function() {
 		var w = $(window);
 		if(w.outerWidth() <= 1024) {
-			$("body").addClass("sidebar-show");
+			$("body").addClass("sidebar-gone");
+			$("#closeYourSideBar").hide();
 			$("body").off('click').on('click', function(e) {
 				if($(e.target).hasClass('sidebar-show') || $(e.target).hasClass('search-show')) {
 					$("body").removeClass("sidebar-show");
 					$("body").addClass("sidebar-gone");
 					$("body").removeClass("search-show");
+					$("#closeYourSideBar").hide();
 				}
 			});
 		}else{
 			$("body").addClass("sidebar-show");
+			$("#closeYourSideBar").hide();
+
 		}
 	}
 	toggleSidebar();
 	$(window).resize(toggleSidebar);
 
+	$("#closeYourSideBar").click(function() {
+		$("body").removeClass("sidebar-show");
+		$("body").addClass("sidebar-gone");
+		$("#closeYourSideBar").fadeOut();
+	});
 	// tooltip
 	$("[data-toggle='tooltip']").tooltip();
 
@@ -108,9 +123,9 @@ $(function() {
 		$(".summernote-simple").summernote({
 			minHeight: 150,
 			toolbar: [
-				['style', ['bold', 'italic', 'underline', 'clear']],
-				['font', ['strikethrough']],
-				['para', ['paragraph']]
+			['style', ['bold', 'italic', 'underline', 'clear']],
+			['font', ['strikethrough']],
+			['para', ['paragraph']]
 			]
 		});
 	}
@@ -118,7 +133,7 @@ $(function() {
 	// Dismiss function
 	$("[data-dismiss]").each(function() {
 		var me = $(this),
-				target = me.data('dismiss');
+		target = me.data('dismiss');
 
 		me.click(function() {
 			$(target).fadeOut(function() {
@@ -131,7 +146,7 @@ $(function() {
 	// Collapsable
 	$("[data-collapse]").each(function() {
 		var me = $(this),
-				target = me.data('collapse');
+		target = me.data('collapse');
 
 		me.click(function() {
 			$(target).collapse('toggle');
@@ -160,9 +175,9 @@ $(function() {
 		me.click(function() {
 			if(!me.hasClass('active')) {
 				var	tab_group = $('[data-tab-group="' + me.data('tab') + '"]'),
-						tab_group_active = $('[data-tab-group="' + me.data('tab') + '"].active'),
-						target = $(me.attr('href')),
-						links = $('[data-tab="'+me.data('tab') +'"]');
+				tab_group_active = $('[data-tab-group="' + me.data('tab') + '"].active'),
+				target = $(me.attr('href')),
+				links = $('[data-tab="'+me.data('tab') +'"]');
 
 				links.removeClass('active');
 				me.addClass('active');
@@ -176,10 +191,10 @@ $(function() {
 	// Bootstrap 4 Validation
 	$(".needs-validation").submit(function() {
 		var form = $(this);
-        if (form[0].checkValidity() === false) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
+		if (form[0].checkValidity() === false) {
+			event.preventDefault();
+			event.stopPropagation();
+		}
 		form.addClass('was-validated');
 	});
 
