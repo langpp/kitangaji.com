@@ -21,15 +21,27 @@
                   <label class="text-left">Email</label>
                   <input type="email" class="form-control mb-2" placeholder="example@mail.com" required>
                 </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                 <div class="form-group">
                   <label class="text-left">Password</label>
                   <input type="password" class="form-control mb-2" placeholder="*******" required>
                 </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="form-group">
+                  <label class="text-left">Alamat</label>
+                  <input type="text" class="form-control mb-2" placeholder="Alamat Lengkap" required>
+                </div>
+                <div class="form-group">
+                  <label class="text-left">Kota/Kabupaten</label>
+                  <select class="form-control mb-2">
+                    <option hidden="">Silahkan Pilih</option>
+                    <option>Kota I</option>
+                    <option>Kota II</option>
+                  </select>
+                </div>
                 <div class="form-group">
                   <label class="text-left">Paket</label>
-                  <select class="form-control">
+                  <select class="form-control mb-2">
                     <option hidden="">Silahkan Pilih</option>
                     <option>Paket I</option>
                     <option>Paket II</option>
@@ -37,7 +49,7 @@
                 </div>
                 <div class="form-group">
                   <label class="text-left">Metode Pembayaran</label>
-                  <select class="form-control">
+                  <select class="form-control mb-2">
                     <option hidden="">Silahkan Pilih</option>
                     <option>Tunai</option>
                     <option>Atm</option>

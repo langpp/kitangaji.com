@@ -17,15 +17,67 @@
                   <label class="text-left">Nomor Telphon</label>
                   <input type="number" class="form-control mb-2" placeholder="No Telphon" required>
                 </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                 <div class="form-group">
                   <label class="text-left">Email</label>
                   <input type="email" class="form-control mb-2" placeholder="example@mail.com" required>
                 </div>
                 <div class="form-group">
                   <label class="text-left">Password</label>
-                  <input type="password" class="form-control mb-4" placeholder="*******" required>
+                  <input type="password" class="form-control mb-2" placeholder="*******" required>
+                </div>
+                <div class="form-group">
+                  <label class="text-left">Tanggal Lahir</label>
+                  <input type="date" class="form-control mb-2" required>
+                </div>
+                <div class="form-group">
+                  <label class="text-left">Tempat Lahir</label>
+                  <input type="text" class="form-control mb-2" placeholder="Tempat Lahir Anda" required>
+                </div>
+
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="form-group">
+                  <label class="text-left">Alamat</label>
+                  <input type="text" class="form-control mb-2" placeholder="Alamat Lengkap" required>
+                </div>
+                <div class="form-group">
+                  <label class="text-left">Kota/Kabupaten</label>
+                  <select class="form-control">
+                    <option hidden="">Silahkan Pilih</option>
+                    <option>Kota I</option>
+                    <option>Kota II</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="text-left">Tingkat Pendidikan</label>
+                  <select class="form-control">
+                    <option hidden="">Silahkan Pilih</option>
+                    <option>TK</option>
+                    <option>SD</option>
+                    <option>SMP</option>
+                    <option>SMA</option>
+                    <option>D3</option>
+                    <option>S1</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="text-left">Nama Tempat Pendidikan Terakhir</label>
+                  <input type="text" class="form-control mb-2" placeholder="Nama Tempat Pendidikan Terakhir" required>
+                </div>
+                <div class="form-group">
+              <label class="text-left">Sertifikat</label>
+              <div class="form-check mt-1">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio">Ada
+                </label>
+                <label class="form-check-label ml-5">
+                  <input type="radio" class="form-check-input" name="optradio">Tidak Ada
+                </label>
+              </div>
+            </div>
+            <div class="form-group" style="margin-top: 1.55em !important;">
+                  <label class="text-left">Foto</label>
+                  <input type="file" class="form-control mb-2" required>
                 </div>
               </div>
             </div>

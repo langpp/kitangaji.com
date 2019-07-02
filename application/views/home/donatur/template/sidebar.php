@@ -38,11 +38,12 @@
               </ul>
             </li>
 
-            <li <?php if ($this->uri->segment(2) == "laporanKbm" || $this->uri->segment(2) == "laporanProyek") { ?> class="nav-active active" <?php }else{?> class="" <?php }?>>
+            <li <?php if ($this->uri->segment(2) == "laporanKbm" || $this->uri->segment(2) == "laporanProyek" || $this->uri->segment(2) == "laporanKeuangan") { ?> class="nav-active active" <?php }else{?> class="" <?php }?>>
               <a href="#" class="has-dropdown"><i class="ion ion-clipboard"></i><span>Laporan</span></a>
               <ul class="menu-dropdown">
                 <li <?php if ($this->uri->segment(2) == "laporanKbm") { ?> class="active" <?php }else{?> class="" <?php }?>><a href="<?php echo base_url();?>donatur/laporanKbm"><i class="ion ion-ios-circle-outline"></i> KBM</a></li>
                 <li <?php if ($this->uri->segment(2) == "laporanProyek") { ?> class="active" <?php }else{?> class="" <?php }?>><a href="<?php echo base_url();?>donatur/laporanProyek"><i class="ion ion-ios-circle-outline"></i> Proyek</a></li>
+                <li <?php if ($this->uri->segment(2) == "laporanKeuangan") { ?> class="active" <?php }else{?> class="" <?php }?>><a href="<?php echo base_url();?>donatur/laporanKeuangan"><i class="ion ion-ios-circle-outline"></i> Keuangan</a></li>
               </ul>
             </li>
 

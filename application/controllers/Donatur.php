@@ -59,6 +59,16 @@ class Donatur extends CI_Controller {
 		$this->load->view('home/donatur/template/default_template', $data);
 	}
 
+	public function laporanKeuangan()
+	{
+		$path = "";
+		$data = array(
+			"page" => $this->load("Laporan Keuangan", $path),
+			"content" =>$this->load->view('home/donatur/laporanKeuangan', false, true)
+		);
+		$this->load->view('home/donatur/template/default_template', $data);
+	}
+
 	public function profile()
 	{
 		$path = "";
