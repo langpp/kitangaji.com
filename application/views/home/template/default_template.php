@@ -34,8 +34,8 @@
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav nav ml-auto menusBar">
 					<li class="nav-item"><a href="<?php echo base_url();?>donasi" <?php if ($this->uri->segment(1) == 'donasi' ||$this->uri->segment(1) == 'detail') { ?> class="nav-link active" <?php }else{ ?> class="nav-link"<?php } ?>><span>Donasi</span></a></li>
-					<li class="nav-item"><a href="<?php echo base_url();?>zakat" <?php if ($this->uri->segment(1) == 'zakat') { ?>
-						class="nav-link active" <?php }else{ ?> class="nav-link" <?php } ?>><span>Zakat</span></a></li>
+					<!-- <li class="nav-item"><a href="<?php //echo base_url();?>zakat" <?php //if ($this->uri->segment(1) == 'zakat') { ?>
+						class="nav-link active" <?php }//else{ ?> class="nav-link" <?php } ?>><span>Zakat</span></a></li> -->
 						<li class="nav-item dropdown">
 							<a <?php if ($this->uri->segment(1) == 'daftarGuru' || $this->uri->segment(1) == 'daftarMurid' || $this->uri->segment(1) == 'daftarDonatur') { ?> class="nav-link active dropdown-toggle" <?php }else{ ?> class="nav-link dropdown-toggle" <?php } ?> href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Daftar
