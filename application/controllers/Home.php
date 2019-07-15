@@ -58,42 +58,82 @@ class Home extends CI_Controller {
 
 	public function login()
 	{
-		$path = "";
-		$data = array(
-			"page" => $this->load("Login", $path),
-			"content" =>$this->load->view('home/login', false, true)
-		);
-		$this->load->view('home/template/default_template', $data);
+        if ($this->session->userdata('email') == true && $this->session->userdata('role') == "1") {
+            redirect('donatur');
+        }else if ($this->session->userdata('email') == true && $this->session->userdata('role') == "2") {
+            redirect('guru');
+        }else if ($this->session->userdata('email') == true && $this->session->userdata('role') == "3") {
+            redirect('murid');
+        }else if ($this->session->userdata('email') == true && $this->session->userdata('role') == "999") {
+            redirect('dashboard');
+        }else{
+			$path = "";
+			$data = array(
+				"page" => $this->load("Login", $path),
+				"content" =>$this->load->view('home/login', false, true)
+			);
+			$this->load->view('home/template/default_template', $data);
+		}
 	}
 
 	public function registerGuru()
 	{
-		$path = "";
-		$data = array(
-			"page" => $this->load("Daftar Guru", $path),
-			"content" =>$this->load->view('home/registerGuru', false, true)
-		);
-		$this->load->view('home/template/default_template', $data);
+		if ($this->session->userdata('email') == true && $this->session->userdata('role') == "1") {
+            redirect('donatur');
+        }else if ($this->session->userdata('email') == true && $this->session->userdata('role') == "2") {
+            redirect('guru');
+        }else if ($this->session->userdata('email') == true && $this->session->userdata('role') == "3") {
+            redirect('murid');
+        }else if ($this->session->userdata('email') == true && $this->session->userdata('role') == "999") {
+            redirect('dashboard');
+        }else{
+			$path = "";
+			$data = array(
+				"page" => $this->load("Daftar Guru", $path),
+				"content" =>$this->load->view('home/registerGuru', false, true)
+			);
+			$this->load->view('home/template/default_template', $data);
+		}
 	}
 
 	public function registerMurid()
 	{
-		$path = "";
-		$data = array(
-			"page" => $this->load("Daftar Murid", $path),
-			"content" =>$this->load->view('home/registerMurid', false, true)
-		);
-		$this->load->view('home/template/default_template', $data);
+		if ($this->session->userdata('email') == true && $this->session->userdata('role') == "1") {
+            redirect('donatur');
+        }else if ($this->session->userdata('email') == true && $this->session->userdata('role') == "2") {
+            redirect('guru');
+        }else if ($this->session->userdata('email') == true && $this->session->userdata('role') == "3") {
+            redirect('murid');
+        }else if ($this->session->userdata('email') == true && $this->session->userdata('role') == "999") {
+            redirect('dashboard');
+        }else{
+			$path = "";
+			$data = array(
+				"page" => $this->load("Daftar Murid", $path),
+				"content" =>$this->load->view('home/registerMurid', false, true)
+			);
+			$this->load->view('home/template/default_template', $data);
+		}
 	}
 
 	public function registerDonatur()
 	{
-		$path = "";
-		$data = array(
-			"page" => $this->load("Daftar Donatur", $path),
-			"content" =>$this->load->view('home/registerDonatur', false, true)
-		);
-		$this->load->view('home/template/default_template', $data);
+		if ($this->session->userdata('email') == true && $this->session->userdata('role') == "1") {
+            redirect('donatur');
+        }else if ($this->session->userdata('email') == true && $this->session->userdata('role') == "2") {
+            redirect('guru');
+        }else if ($this->session->userdata('email') == true && $this->session->userdata('role') == "3") {
+            redirect('murid');
+        }else if ($this->session->userdata('email') == true && $this->session->userdata('role') == "999") {
+            redirect('dashboard');
+        }else{
+			$path = "";
+			$data = array(
+				"page" => $this->load("Daftar Donatur", $path),
+				"content" =>$this->load->view('home/registerDonatur', false, true)
+			);
+			$this->load->view('home/template/default_template', $data);
+		}
 	}
 	
 }

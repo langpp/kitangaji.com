@@ -24,5 +24,6 @@
 
     <link rel="stylesheet" href="<?php echo base_url();?>assets/home/css/style.css">
     <link rel="stylesheet" href="<?php echo base_url();?>assets/home/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/home/toastr/build/toastr.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>

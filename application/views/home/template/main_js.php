@@ -7,6 +7,7 @@
 <script src="<?php echo base_url();?>assets/home/js/owl.carousel.min.js"></script>
 <script src="<?php echo base_url();?>assets/home/js/jquery.animateNumber.min.js"></script>
 <script src="<?php echo base_url();?>assets/home/js/scrollax.min.js"></script>
+<script src="<?php echo base_url();?>assets/home/toastr/build/toastr.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function(){
     $('.myslider').owlCarousel({

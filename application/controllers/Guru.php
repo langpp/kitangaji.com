@@ -5,6 +5,10 @@ class Guru extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
+		if ($this->session->userdata('email') != true || $this->session->userdata('role') != "2") {
+			$this->session->set_flashdata('notif_login', '<script>toastr.warning("Anda Tidak Ada Akses ! Silahkan Login Terlebih Dahulu", "Warning !", {"timeOut": "0","extendedTImeout": "0"});</script>');
+            redirect('login');
+        }
 	}
 
 	private function load($title = '', $datapath = '')

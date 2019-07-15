@@ -61,7 +61,7 @@
               <a href="profile.html" class="dropdown-item has-icon">
                 <i class="ion ion-android-person"></i> Profile
               </a>
-              <a href="<?php echo base_url();?>" class="dropdown-item has-icon">
+              <a href="<?php echo base_url();?>actionLogout" class="dropdown-item has-icon">
                 <i class="ion ion-log-out"></i> Logout
               </a>
             </div>
